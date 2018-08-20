@@ -1,0 +1,73 @@
+/*font-family*/
+@font-face {
+    font-family: 'hvd_rowdyregular';
+    src: url('police/HVD_Rowdy-webfont.eot');
+    src: url('police/HVD_Rowdy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/HVD_Rowdy-webfont.woff2') format('woff2'),
+         url('police/HVD_Rowdy-webfont.woff') format('woff'),
+         url('police/HVD_Rowdy-webfont.ttf') format('truetype'),
+         url('police/HVD_Rowdy-webfont.svg#hvd_rowdyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bloc_page{
+	background-image: url(img/backgrnd.jpg);
+	margin: auto;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*header*/
+
+.bloc_page--top{
+	height: 500px;
+	background-position:  center;
+	background-repeat: no-repeat;
+	color: rgb(200,0,0);
+	text-align: center;
+}
+
+.bloc_page--top h1{
+	font-family: impact;
+}
+
+.button {
+	background-color: rgb(0,0,0);
+	box-shadow: 0px 0px 10px red;
+	border-radius: 20px;
+}
+
+.button:hover{
+	box-shadow: none;
+}
+
+/*contenu*/
+
+.images_ambiance{
+	display: flex;
+	justify-content: space-around;
+}
+
+.bloc_bands{
+	text-align: center;
+}
+
+/*footer*/
+
+.navigation{
+	background-image: url(img/footer.jpg);
+	height: 100px;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+.navigation button{
+	background-color: rgb(175,20,20);
+	border-radius: 5px;
+	border: none;
+	font-size: 1.2em;
+	font-family: impact;
+}
